@@ -1,6 +1,5 @@
 # Information
 
-1. Different Ways to Create Components.
-2. `"use client"` Because of `useState`
-3. `useState` is Client Side so need to use `use client` top level of components.
-4. Components can create inside components & also outside the components in same file.
+1. Components Called As a Function.
+2. Used Function and inside Function Create Components and Return it as a Components.
+3. Called that's function inside JSX Based on Condition or any way we want.

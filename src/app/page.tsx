@@ -17,6 +17,10 @@ export default function Home() {
     };
     return <DisplayMsg />;
   };
+
+  const SayHello = () => {
+    return <h1>Hey Anish!</h1>;
+  };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <h1>Who is Logged In ?</h1>
@@ -24,6 +28,8 @@ export default function Home() {
       {!isTrue ? <User /> : <Admin />}
       {isTrue ? callMe() : " "}
       {callMe()}
+
+      <SayHello />
     </main>
   );
 }

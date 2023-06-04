@@ -23,6 +23,7 @@ export default function Home() {
       <button onClick={() => setIsTrue(!isTrue)}>Switch User</button>
       {!isTrue ? <User /> : <Admin />}
       {isTrue ? callMe() : " "}
+      {callMe()}
     </main>
   );
 }
